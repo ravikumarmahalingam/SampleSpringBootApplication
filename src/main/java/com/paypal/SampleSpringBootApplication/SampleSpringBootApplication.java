@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.paypal.appProperties", "" })
+@ComponentScan(basePackages = { "com.paypal.appProperties"})
 public class SampleSpringBootApplication {
 
 	public static void main(String[] args) {
